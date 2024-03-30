@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #0b1f25; /* Set the background color */
+
+}
+
+/* Additional styling for heading */
+.App h1 {
+  color: #333; /* Set text color */
+  font-size: 2rem; /* Increase font size */
+  margin-bottom: 2rem; /* Add bottom margin */
+}
+
+/* Additional styling for button */
+.App button {
+  padding: 10px 20px; /* Add padding */
+  font-size: 1rem; /* Set font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add pointer cursor */
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
