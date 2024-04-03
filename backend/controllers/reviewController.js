@@ -1,9 +1,9 @@
 const ReviewEntry = require("../models/reviewEntry");
 
 exports.createPost = async (req, res) => {
-  const { title, rating, content, author } = req.body;
+  const { title, rating, content, author, bookCoverUrl, genre } = req.body;
   try {
-    const newPost = new ReviewEntry({ title, rating, content, author });
+    const newPost = new ReviewEntry({ title, rating, content, author, bookCoverUrl, genre });
     await newPost.save();
         res.status(201).json(newPost);
     } catch (error) {

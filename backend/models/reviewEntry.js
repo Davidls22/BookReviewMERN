@@ -19,6 +19,12 @@ const blogEntrySchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    bookCoverUrl: {
+        type: String  
+    },
+    genre: {
+        type: String 
+    },
     date: {
         type: Date,
         default: Date.now
